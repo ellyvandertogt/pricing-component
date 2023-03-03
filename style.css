@@ -13,7 +13,48 @@
     --Dark-Grayish-Blue: hsl(232, 13%, 33%);
 }
 body {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
-    background: red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:var(--Very-Light-Grayish-Blue);
 }
+.price {
+    color: var(--Grayish-Blue);
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-size: 2.5rem;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: var(--Light-Grayish-Blue);
+    margin-bottom: 15%;
+    font-size: 1rem;
+}
+
+
+.button .butt {
+    background-color: var(--Light-Grayish-Blue);
+    width: 100px;
+    height: 35px;
+    
+}
+.combine {
+    display: flex;
+    gap: 20rem;
+    justify-content: center;
+}
+
+.combine .div1 {
+    background: pink;
+}
+.div1 .dollar {
+    color: red;
+}
+
